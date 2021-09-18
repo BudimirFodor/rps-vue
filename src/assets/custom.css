@@ -1,0 +1,229 @@
+#nav {
+    background-color: #0dcaf0;
+    border-color: #0d99b5;
+    border-bottom: 1px solid;
+    margin-bottom: 20px;
+    padding: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+#nav a {
+    color: #0F2934;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#nav a.router-link-exact-active {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-title {
+    color: white;
+    text-align: left;
+    font-size: 25px;
+    font-weight: 600;
+    border-right: solid 1px #0d99b5;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #0d99b5;
+}
+
+.navbar-body {
+    padding: 0px;
+}
+
+.navbar-item {
+    padding-top: 30px;
+    padding-bottom: 45px;
+}
+
+.navbar-item:hover {
+    background-color: #0d99b5;
+    cursor: pointer;
+}
+
+.navbar-title svg {
+    float: left; 
+    margin-left:15px; 
+    margin-right:15px; 
+    margin-top: 6px
+}
+
+button {
+    margin-left: 2px !important;
+    margin-right: 2px !important;
+}
+
+.description {
+    text-align: left;
+}
+
+.home-title {
+    height: 30vh;
+}
+
+.card-text {
+    padding-top: 15px;
+}
+
+.card-header {
+    /* background-color: #0d99b5 !important; */
+    font-weight: bold;
+}
+
+.main-container {
+    height: 100vh;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 0px !important; 
+    margin-left: 0px !important;
+}
+
+.note {
+    font-style: italic;
+    color: lightslategrey;
+}
+
+.big-note {
+    font-weight: bold;
+    font-size: x-large;
+    padding: 10rem
+}
+
+.card .note {
+    color: white;
+}
+
+.note.black {
+    color: black;
+}
+
+.card .card {
+    margin-bottom: 10px;
+}
+
+.tag:hover {
+    cursor: default !important;
+}
+
+.tag:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.tag svg {
+    cursor: pointer;
+}
+
+.modal-header .close {
+    padding: 1rem;
+    margin: -1rem -1rem -1rem 0px!important;
+}
+
+.close:not(:disabled):not(.disabled):focus, .close:not(:disabled):not(.disabled):hover {
+    opacity: .75;
+}
+
+button.close {
+    background-color: transparent;
+    border: 0;
+}
+
+.close {
+    float: right;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .5;
+}
+
+.modal-content select {
+    width: 100% !important;
+}
+
+select {
+    width: 90%;
+}
+
+.table-completed {
+    background-color: rgb(138, 253, 153);
+    border-color: limegreen !important;
+}
+
+.table-completed .btn-primary.active{
+    background-color: limegreen;
+}
+
+.table-completed .btn-outline-primary:hover, .table-today .btn-outline-primary:hover {
+    background-color: white;
+    color: black;
+}
+
+.table-today {
+    background-color: rgb(255, 228, 177) !important;
+    border-color: orange !important;
+}
+
+.table-today .btn-primary.active {
+    background-color: orange;
+}
+
+.table-available {
+    background-color :rgb(164, 252, 255);
+    border-color: lightskyblue !important;
+}
+
+.table-available .btn-primary.active {
+    background-color: lightskyblue;
+}
+
+.b-calendar .btn-outline-primary {
+    color: black;
+    font-weight: bold;
+}
+
+.table-today {
+    background-color: rgb(157, 244, 255);
+}
+
+.b-calendar {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.b-calendar-grid-body [aria-disabled='true'] {
+    cursor: default;
+}
+
+.b-calendar-grid-body div div{
+    border: 1px solid lightgrey;
+}
+
+.b-calendar-grid:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.row.no-gutters {
+    height: 8vh;
+}
+
+.details-card {
+    margin-top: 10px;
+}
+
+.details-card .card-text {
+    padding-top: 0px !important;
+}
+
+.details-card .note, button#complete-training {
+    margin-bottom: 10px;
+}
+
+.custom-control-label {
+    margin-left: 10px;
+}
