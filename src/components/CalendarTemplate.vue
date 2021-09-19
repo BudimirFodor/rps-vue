@@ -276,7 +276,7 @@ export default {
     },
     startTraining () {
       let trainingDefId = null
-      const currentDay = new Date().getDay() - 1
+      const currentDay = (new Date().getDay() + 6) % 7
       for (let i = 0; i < this.routine.trainingDefs.length; i++) {
         if (this.routine.trainingDefs[i].dayOfWeek === currentDay) {
           trainingDefId = this.routine.trainingDefs[i].id
@@ -313,7 +313,6 @@ export default {
         body: JSON.stringify(this.training)
       }).then(async response => {
         try {
-          this.$root.successToast((await response.json()).message)
           if (await response.status === 200) {
             this.$root.successToast((await response.json()).message)
             this.training.finishedOn = new Date().toString()
